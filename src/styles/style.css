@@ -1,0 +1,33 @@
+.container {
+  width: 90%;
+  max-width: 375px;
+  margin: auto;
+  margin-top: 200px;
+  h2 {
+    text-align: center;
+  }
+}
+input[type="text"], input[type="password"], input[type="exmail"] {
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #BEBEBE;
+  border-radius: 4px;
+  background:  #FDFDFD;
+  height: 36px;
+  line-height: 36px;
+  color: #43474C;
+  padding: 6px;
+}
+.form-submit-btn {
+  height: 46px;
+  width: 100%;
+  line-height: 46px;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  background:  #FF5555;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}

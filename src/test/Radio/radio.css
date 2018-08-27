@@ -1,0 +1,48 @@
+.radio {
+  display: inline-flex;
+  align-items: center;
+  line-height: 20px;
+  margin: 10px 4px;
+  font-size: 16px;
+  cursor: pointer;
+  &-label {
+    margin: 0px 6px;
+    cursor: pointer;
+  }
+  &-inner {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 100%;
+    border: 1px solid #C6C6C6;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .25);
+    position: relative;
+    &::before {
+      content: '';
+      width: 50%;
+      height: 50%;
+      border-radius: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      background-color: #ffffff;
+    }
+  }
+  &-disabled {
+    border-color: #C6C6C6;
+    background-color: #d9d9dd;
+    &::before {
+      background-color: #d9d9dd;
+    }
+  }
+  &-checked {
+    &::before {
+      background-color: #FF5555;
+    }
+  }
+}

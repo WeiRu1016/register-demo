@@ -1,0 +1,50 @@
+.container {
+  width: 90%;
+  max-width: 375px;
+  margin: auto;
+  margin-top: 20vh;
+  h2 {
+    text-align: center;
+  }
+}
+.form-item {
+  padding: 12px 10px;
+  line-height: 40px;
+  display: flex;
+  &-label {
+    margin-right: 4px;
+    color: rgba(0, 0, 0, 0.85);
+  }
+  &-input {
+    flex: 1;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  &-error {
+    color: #FF5555;
+    line-height: 1.2;
+  }
+}
+input[type="text"], input[type="password"], input[type="exmail"] {
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #BEBEBE;
+  border-radius: 4px;
+  background:  #FDFDFD;
+  height: 36px;
+  line-height: 36px;
+  color: #43474C;
+  padding: 6px;
+}
+.form-submit-btn {
+  height: 46px;
+  width: 100%;
+  line-height: 46px;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  background:  #FF5555;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
